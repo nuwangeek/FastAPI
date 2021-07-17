@@ -14,3 +14,9 @@ def about():
 @app.get('/info')
 def about():
     return {'info': 'Info page'}
+
+#this is sub brnach of FATAPI-2
+@app.get('/todo')
+def about():
+    return {'todo': 'ToDo page'}
+
